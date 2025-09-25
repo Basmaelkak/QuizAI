@@ -118,7 +118,7 @@ https://github.com/user-attachments/assets/81474eb2-4136-48b9-9483-0190f66e3d8f
 
 ## 📄 Licence
 Ce projet est sous **MIT License**.  
-Voir le fichier `LICENSE` pour plus de détails.
+
 
 
 
