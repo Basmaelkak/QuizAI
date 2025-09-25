@@ -6,7 +6,7 @@
 - [Technologies utilisées](#technologies-utilisées)
 - [Permissions nécessaires](#permissions-nécessaires)
 - [Installation & Exécution](#installation--exécution)
-- [Captures d’écran](#captur
+- [ Démonstration vidéo](#Démonstration-vidéo)
 
 https://github.com/user-attachments/assets/8109c391-8f9c-4509-a102-499c0628eb54
 
@@ -101,8 +101,14 @@ L’application utilise plusieurs permissions (déclarées dans `AndroidManifest
 
 ---
 
-## 📸 Captures d’écran
-*(Ajouter ici des images des écrans principaux : Login, Dashboard, Maps, Quiz, Score)*
+## 🎥 Démonstration vidéo
+
+
+
+https://github.com/user-attachments/assets/c712b0d8-e39e-410b-9d8c-acb18226b5f7
+
+
+https://github.com/user-attachments/assets/81474eb2-4136-48b9-9483-0190f66e3d8f
 
 ---
 
