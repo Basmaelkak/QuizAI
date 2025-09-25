@@ -7,10 +7,6 @@
 - [Permissions nécessaires](#permissions-nécessaires)
 - [Installation & Exécution](#installation--exécution)
 - [ Démonstration vidéo](#Démonstration-vidéo)
-
-https://github.com/user-attachments/assets/8109c391-8f9c-4509-a102-499c0628eb54
-
-es-décran)
 - [Auteur](#auteur)
 - [Licence](#licence)
 
