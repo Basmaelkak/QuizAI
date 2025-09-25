@@ -56,8 +56,63 @@ L’application utilise plusieurs permissions (déclarées dans `AndroidManifest
 ---
 
 ## ▶️ Installation & Exécution
-1. **Cloner le projet** :  
-   ```bash
-   git clone https://github.com/tonNom/MonProjetAndroid.git
+2. **Ouvrir dans Android Studio** :  
+   - Fichier → Ouvrir → sélectionner le dossier cloné.
+
+3. **Configurer Firebase** :  
+   - Copier le fichier `google-services.json` dans le dossier `app/`.  
+   - Activer l’authentification Email/Mot de passe dans Firebase Console.
+
+4. **Configurer Google Maps** :  
+   - Activer l’API Google Maps dans Google Cloud Console.  
+   - Renseigner la clé API dans le `AndroidManifest.xml` :  
+     ```xml
+     <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="YOUR_API_KEY_HERE" />
+     ```
+
+5. **Configurer l’API OpenRouter** :  
+   - Ajouter ta clé API dans `GenerateQuizActivity.java` :  
+     ```java
+     private static final String OPENAI_API_KEY = "YOUR_API_KEY_HERE";
+     ```
+
+6. **Gérer les permissions Android** :  
+   - L’application demandera automatiquement l’accès caméra et localisation.  
+   - Autoriser ces permissions pour que toutes les fonctionnalités fonctionnent correctement.
+
+7. **Lancer l’application** :  
+   - Sélectionner un émulateur ou un appareil Android connecté.  
+   - Cliquer sur **Run**.  
+   - Tester l’authentification, la génération de quiz, la localisation et la détection faciale.
+
+---
+
+## 📷 Détection faciale pendant le quiz
+- Utilisation de **CameraX** et **ML Kit Face Detection**.  
+- Empêche l’utilisateur de passer les questions si aucun visage n’est détecté.  
+- Affiche un indicateur visuel (`✅ Visage détecté` ou `❌ Aucun visage détecté`).  
+- Garantie l’intégrité du quiz et limite les tentatives de triche.
+
+---
+
+## 📸 Captures d’écran
+*(Ajouter ici des images des écrans principaux : Login, Dashboard, Maps, Quiz, Score)*
+
+---
+
+## 👩‍💻 Auteur
+**Basma El Kak**  
+- Étudiante en Génie Réseau et Systèmes d’Information  
+- Email : kak.basma08@gmail.com  
+- LinkedIn : [Basma El Kak](https://www.linkedin.com/in/basma-el-kak)
+
+---
+
+## 📄 Licence
+Ce projet est sous **MIT License**.  
+Voir le fichier `LICENSE` pour plus de détails.
+
 
 
