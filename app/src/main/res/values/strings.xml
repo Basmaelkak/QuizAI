@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lab11_elkak</string>
+    <string name="refresh_location">Rafraîchir la localisation</string><!-- Remplace par la bonne valeur -->
+</resources>

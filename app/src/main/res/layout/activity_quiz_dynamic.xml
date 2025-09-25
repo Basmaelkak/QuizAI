@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:colorBackground">
+
+    <!-- Indicateur de statut de détection de visage -->
+    <TextView
+        android:id="@+id/tvFaceStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Détection du visage..."
+        android:textSize="16sp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="Question"
+        android:textSize="20sp"
+        android:textColor="?android:textColorPrimary"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp" />
+
+    <RadioGroup
+        android:id="@+id/rgOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="32dp">
+
+        <RadioButton
+            android:id="@+id/rb1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 1"
+            android:padding="12dp"
+            android:background="?attr/selectableItemBackground"
+            android:buttonTint="?attr/colorPrimary"
+            android:textColor="?android:textColorPrimary" />
+
+        <RadioButton
+            android:id="@+id/rb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 2"
+            android:padding="12dp"
+            android:background="?attr/selectableItemBackground"
+            android:buttonTint="?attr/colorPrimary"
+            android:textColor="?android:textColorPrimary" />
+
+        <RadioButton
+            android:id="@+id/rb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 3"
+            android:padding="12dp"
+            android:background="?attr/selectableItemBackground"
+            android:buttonTint="?attr/colorPrimary"
+            android:textColor="?android:textColorPrimary" />
+
+        <RadioButton
+            android:id="@+id/rb4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Option 4"
+            android:padding="12dp"
+            android:background="?attr/selectableItemBackground"
+            android:buttonTint="?attr/colorPrimary"
+            android:textColor="?android:textColorPrimary" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Suivant"
+        android:backgroundTint="?attr/colorPrimary"
+        android:textColor="@android:color/white"
+        android:textAllCaps="false" />
+</LinearLayout>

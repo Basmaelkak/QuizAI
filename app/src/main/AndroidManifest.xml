@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.lab11_elkak">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" android:required="true" />
+
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lab11_elkak"
+        tools:targetApi="31">
+        <activity android:name=".MapsActivity"
+            android:exported="true">
+        </activity>
+        <activity android:name=".DashboardActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".IAQuizGeneratorActivity"/>
+
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@android:color/holo_blue_light" />
+        <meta-data
+            android:name="com.google.firebase.analytics.collection_enabled"
+            android:value="true" />
+        <meta-data
+            android:name="com.google.firebase.auth.api.gms.core.default_web_client_id"
+            android:value="@string/default_web_client_id" />
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCtWhWkkqyG6KInS-XjhODRr4_Q782VEgs" />
+
+        <activity android:name=".Score" android:exported="false" />
+        <activity android:name=".Quiz5" android:exported="false" />
+        <activity android:name=".Quiz4" android:exported="false" />
+        <activity android:name=".Quiz3" android:exported="false" />
+        <activity android:name=".Quiz2" android:exported="false" />
+        <activity android:name=".Quiz1" android:exported="false" />
+        <activity android:name=".GenerateQuizActivity" android:exported="false" />
+        <activity android:name=".Register" android:exported="false" />
+        <activity android:name=".QuizDynamicActivity"
+            android:requestLegacyExternalStorage="true"/>
+        <activity android:name=".MesQuizActivity" />
+
+
+
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>

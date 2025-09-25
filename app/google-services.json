@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "413319904438",
+    "project_id": "quizapp-el-kak",
+    "storage_bucket": "quizapp-el-kak.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413319904438:android:ec3c28aedde615755f7a17",
+        "android_client_info": {
+          "package_name": "com.example.lab11_elkak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413319904438-mhdqblvl5593tvqbaslim7a33n7njj71.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACFGQS92lAHOdSP_njBMGdFcLQbJ-uGP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413319904438-mhdqblvl5593tvqbaslim7a33n7njj71.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
